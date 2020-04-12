@@ -12,8 +12,6 @@ print(voices)
 
 engine.setProperty('voice', voices[0].id)
 
-
-
 def speak(word):
     engine.say(word)
     engine.runAndWait()
@@ -58,7 +56,6 @@ img = PhotoImage(file="bot1.png")
 photoL = Label(main, image=img)
 
 photoL.pack(pady=5)
-
 
 # takey query : it takes audio as input from user and convert it to string..
 
